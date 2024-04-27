@@ -1,0 +1,8 @@
+backend:
+  name: github
+  repo: Matthiasc/digital.minck.be-decap.cms # Replace with your GitHub username and repository
+  branch: main # Default is master, ensure you're using the correct branch name
+
+# Optional, but recommended: Enable Identity service and Git Gateway
+media_folder: "static/img" # Path where media files should be stored
+public_folder: "/img" # Public path for accessing media files in your CMS
